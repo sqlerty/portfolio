@@ -7,16 +7,18 @@ export default function Education() {
         <h2>Образование</h2>
       </div>
       <div className="border rounded-xl p-6 border-gray-200 flex justify-between bg-white">
-        <div>
-          <h3 className="text-main mb-12">
-            Новгородский Государственный университет
-          </h3>
+        <div className="w-full">
+          <div className="flex justify-between mb-12  max-md:flex-col max-md:gap-2">
+            <h3 className="text-main max-md">
+              Новгородский Государственный университет
+            </h3>
+            <p className="text-gray-400">2022 - Настоящее время</p>
+          </div>
           <p className="text-gray-600">
             Бакалавар: кафедра информационных технологий фокультет информатики и
             вычислительной техники
           </p>
         </div>
-        <p className="text-gray-400">2022 - Настоящее время</p>
       </div>
     </div>
   );

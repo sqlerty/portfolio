@@ -7,23 +7,25 @@ export default function WorkExpirience() {
         <FiBriefcase className="text-main w-10 h-10" />
         <h2>Опыт работы</h2>
       </div>
-      <div className="flex flex-col gap-10 bg-white">
+      <div className="flex flex-col gap-10 bg-white ">
         {expirienceItems.map((item) => (
           <div
             key={item.position}
-            className="border rounded-xl p-6 border-gray-200 flex justify-between ">
-            <div className="">
-              <div className="flex flex-col gap-1 mb-12">
-                <h2 className="text-main">{item.position}</h2>
-                <h3 className="text-gray-700 text-xl">{item.place}</h3>
+            className="border rounded-xl p-6 border-gray-200 flex ">
+            <div className="w-full ">
+              <div className="flex justify-between max-md:flex-col max-md:mb-12">
+                <div className="flex flex-col gap-1 mb-12 max-md:mb-1">
+                  <h2 className="text-main">{item.position}</h2>
+                  <h3 className="text-gray-700 text-xl">{item.place}</h3>
+                </div>
+                <p className="text-gray-400">{item.data}</p>
               </div>
               {item.tasks.map((task) => (
-                <ul key={task} className="list-disc pl-6 ">
-                  <li className="mb-2 text-gray-800 pl-2">{task}</li>
+                <ul key={task} className="list-disc pl-6  w-full">
+                  <li className="mb-2 text-gray-800 pl-2 ">{task}</li>
                 </ul>
               ))}
             </div>
-            <p className="text-gray-400">{item.data}</p>
           </div>
         ))}
       </div>
