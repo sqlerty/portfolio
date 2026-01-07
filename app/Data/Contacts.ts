@@ -15,5 +15,5 @@ export const contactsItems:contactsItems[] = [
     {icon:FaPhone,title:"Телефон" ,contact:"+ 7 (960) 201-97-83",ref:"##"},
     {icon:IoLocationOutline,title:"Местоположение" ,contact:"Великий Новгород, Россия",ref:"##"},
     {icon:FiGithub,title:"GitHub" ,contact:"https://github.com/sqlerty",ref:"https://github.com/sqlerty"},
-    {icon:CgWorkAlt,title:"hh.ru" ,contact:"clck.ru/3RAJ8L",ref:"https://novgorod.hh.ru/resume/9c43d6deff0f7d80e90039ed1f5a4669556"},
+    {icon:CgWorkAlt,title:"hh.ru" ,contact:"clck.ru/3RAJ8L",ref:"https://novgorod.hh.ru/resume/9c43d6deff0f7d80e90039ed1f5a4669556"}
 ]

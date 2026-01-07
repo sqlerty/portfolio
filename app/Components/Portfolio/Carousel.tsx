@@ -8,13 +8,14 @@ export default function Carousel() {
     Autoplay({ delay: 3000, stopOnInteraction: false }),
   ]);
   return (
-    <div className="w-full max-w-300 mx-auto border-2 border-gray-100 rounded-xl shadow-lg overflow-hidden max-md:max-w-full">
+    <div className="mx-auto w-full max-w-300 overflow-hidden rounded-xl border-2 border-gray-100 shadow-lg max-md:max-w-full">
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">
           {portfolioItems.map((item, index) => (
             <div
-              className="flex-[0_0_100%] relative w-300 h-142 max-md:w-full max-md:h-65"
-              key={index}>
+              className="relative h-142 w-300 flex-[0_0_100%] max-md:h-65 max-md:w-full"
+              key={index}
+            >
               <Image
                 src={item.img}
                 width={1500}

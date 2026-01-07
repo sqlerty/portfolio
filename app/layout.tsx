@@ -4,16 +4,16 @@ import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin", "cyrillic"],
-  display: "swap",
+  display: "swap"
 });
 
 export const metadata: Metadata = {
-  title: "Портфолио",
-  description: "Моё портфолио",
+  title: "Резюме",
+  description: "Мирослав Куприянов"
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {

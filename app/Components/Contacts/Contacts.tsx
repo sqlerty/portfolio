@@ -2,18 +2,19 @@ import { contactsItems } from "@/app/Data/Contacts";
 import { TiContacts } from "react-icons/ti";
 export default function Contacts() {
   return (
-    <div className="max-w-350 m-auto flex flex-col gap-5 p-10">
-      <div className="flex gap-2 items-center">
-        <TiContacts className="text-main w-10 h-10" />
+    <div className="m-auto flex max-w-350 flex-col gap-5 p-10">
+      <div className="flex items-center gap-2">
+        <TiContacts className="text-main h-10 w-10" />
         <h2>Контакты</h2>
       </div>
-      <div className="flex flex-wrap border rounded-xl p-6 border-gray-200 bg-white gap-10">
+      <div className="flex flex-wrap gap-10 rounded-xl border border-gray-200 bg-white p-6">
         {contactsItems.map((item) => (
           <div
             key={item.title}
-            className="flex gap-3  items-center w-100 mr-53 max-md:mr-0">
-            <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-              <item.icon className="w-5 h-5 text-main" />
+            className="mr-53 flex w-100 items-center gap-3 max-md:mr-0"
+          >
+            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-blue-100">
+              <item.icon className="text-main h-5 w-5" />
             </div>
             <div>
               <p>{item.title}</p>
