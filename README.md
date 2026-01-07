@@ -53,5 +53,5 @@
 
 ## 📫 Контакты
 
-Telegram: (https://t.me/sqlerty4)
-Email:    (sqlerty@yandex.ru)
+- Telegram: https://t.me/sqlerty4
+- Email:    sqlerty@yandex.ru
