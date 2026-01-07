@@ -2,6 +2,7 @@ import About from "./Components/About/About";
 import Contacts from "./Components/Contacts/Contacts";
 import Education from "./Components/Education/Education";
 import MainInfo from "./Components/MainInfo/MainInfo";
+import Portfolio from "./Components/Portfolio/Portfolio";
 import Skills from "./Components/Skills/Skills";
 import WorkExpirience from "./Components/WorkExpirience/WorkExpirience";
 
@@ -23,6 +24,9 @@ export default function Home() {
         </section>
         <section>
           <WorkExpirience />
+        </section>
+        <section>
+          <Portfolio />
         </section>
         <section>
           <Contacts />
